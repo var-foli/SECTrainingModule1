@@ -1,0 +1,45 @@
+@import url("home.css");
+
+.education {
+ text-align: center;
+}
+
+.degrees {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-bottom: -10px;
+}
+
+.degree-info {
+  font-size: 1.4rem;
+  margin: 10px;
+}
+
+.skills, .project, .tech-stack {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.proj-table {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  display: inline-block;
+}
+
+td, th {
+  border: 3px solid rgb(71, 71, 71);
+  text-align: center;
+  padding: 20px;
+}
+
+.thumbnail-CD {
+  display: inline-block;
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+}
